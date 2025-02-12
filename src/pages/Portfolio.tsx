@@ -48,7 +48,8 @@ const Portfolio = () => {
                       <span>Tech Stacks:</span> {project.language}
                     </p>
                     <div className="github-link">
-                      <a href={project["html-url"]} target="_blank">
+                      <a href={project.html_url} target="_blank">
+                        
                         <i className="bx bxl-github"></i>
                       </a>
                     </div>

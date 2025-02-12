@@ -17,9 +17,8 @@ const About = () => {
             forefront of development trends.
           </p>
         </div>
-        <button className="jsBtn">
+       
           <h2><span>Skills</span></h2>
-        </button>
 
         <div className="skills">
           <ul className="skills__list">

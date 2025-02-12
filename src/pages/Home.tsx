@@ -1,4 +1,5 @@
-import me from "../img/Me.png"
+import { NavLink } from "react-router-dom";
+import me from "../img/Me.png";
 
 const Home = () => {
   return (
@@ -10,12 +11,7 @@ const Home = () => {
 
         <div className="info-box">
           <h1>
-            <span>
-              Hello, I'm{" "}
-              <button className="easterEgg">
-                <span>Tim</span>
-              </button>
-            </span>
+            <span>Hello, I'm Tim</span>
           </h1>
           <h3>
             <span>Fullstack Developer</span> studying at Chas
@@ -27,7 +23,8 @@ const Home = () => {
         </div>
 
         <div className="btn-box">
-          <a href="/contact">Contact Me</a>
+        <NavLink to="/CVPortalUppgiftReact/contact">Contact me</NavLink>
+
         </div>
       </section>
     </>

@@ -9,16 +9,16 @@ export const Navbar = () => {
 
   return (
     <>
-      <NavLink to="/" className="logo">
+      <NavLink to="/CVPortalUppgiftReact/" className="logo">
         <span>Tim</span>
       </NavLink>
       <nav className="navigationDesktop">
         <ul className="links">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/about">About me</NavLink>
-          <NavLink to="/portfolio">Portfolio</NavLink>
-          <NavLink to="/cv">CV</NavLink>
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink to="/CVPortalUppgiftReact/">Home</NavLink>
+          <NavLink to="/CVPortalUppgiftReact/about">About me</NavLink>
+          <NavLink to="/CVPortalUppgiftReact/portfolio">Portfolio</NavLink>
+          <NavLink to="/CVPortalUppgiftReact/cv">CV</NavLink>
+          <NavLink to="/CVPortalUppgiftReact/contact">Contact</NavLink>
         </ul>
       </nav>
       <div className="mobile">
@@ -33,11 +33,11 @@ export const Navbar = () => {
         </button>
         <nav className={visible ? "visibleburger" : "burgerNav"}>
           <ul className="burgerList">
-            <NavLink to="/" onClick={() => setVisible(false)}>Home</NavLink>
-            <NavLink to="/about" onClick={() => setVisible(false)}>About me</NavLink>
-            <NavLink to="/portfolio"onClick={() => setVisible(false)}>Portfolio</NavLink>
-            <NavLink to="/cv" onClick={() => setVisible(false)}>CV</NavLink>
-            <NavLink to="/contact" onClick={() => setVisible(false)}>Contact</NavLink>
+            <NavLink to="/CVPortalUppgiftReact/" onClick={() => setVisible(false)}>Home</NavLink>
+            <NavLink to="/CVPortalUppgiftReact/about" onClick={() => setVisible(false)}>About me</NavLink>
+            <NavLink to="/CVPortalUppgiftReact/portfolio"onClick={() => setVisible(false)}>Portfolio</NavLink>
+            <NavLink to="/CVPortalUppgiftReact/cv" onClick={() => setVisible(false)}>CV</NavLink>
+            <NavLink to="/CVPortalUppgiftReact/contact" onClick={() => setVisible(false)}>Contact</NavLink>
           </ul>
         </nav>
       </div>

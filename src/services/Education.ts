@@ -2,7 +2,7 @@ import { ICv } from "../modeles/ICv";
 
 export const getJsonCVData = async () => {
   try {
-    const response = await fetch("/cvEducation.json");
+    const response = await fetch("/CVPortalUppgiftReact/cvEducation.json");
     const data:ICv = await response.json();
     return data;
 

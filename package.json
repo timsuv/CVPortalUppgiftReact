@@ -1,7 +1,6 @@
 {
   "name": "cvportaluppgiftreact",
   "homepage": "https://timsuv.github.io/CVPortalUppgiftReact/",
-
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,15 +12,12 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-
-
-"dependencies": {
-  "gh-pages": "^6.3.0",
-  "html-react-parser": "^5.2.2",
-  "react": "^18.3.1",
-  "react-dom": "^18.3.1",
-  "react-router-dom": "^7.1.5"
-},
+  "dependencies": {
+    "html-react-parser": "^5.2.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.1.5"
+  },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
     "@types/react": "^19.0.8",
@@ -30,6 +26,7 @@
     "eslint": "^9.19.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.18",
+    "gh-pages": "^6.3.0",
     "globals": "^15.14.0",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.22.0",

@@ -6,29 +6,31 @@ import Contact from "./pages/Contact";
 import CV from "./pages/CV";
 import Portfolio from "./pages/Portfolio";
 
+const base = "/CVPortalUppgiftReact";
 export const router = createBrowserRouter([
   {
+    path: `${base}/`,
     element: <Layout />,
     children: [
       {
+        path: `${base}/`,
         element: <Home />,
-        path: "/",
       },
       {
+        path: `${base}/about`,
         element: <About />,
-        path: "/about",
       },
       {
         element: <Portfolio />,
-        path: "/portfolio",
+        path: `${base}/portfolio`,
       },
       {
+        path: `${base}/cv`,
         element: <CV />,
-        path: "/cv",
       },
       {
+        path: `${base}/contact`,
         element: <Contact />,
-        path: "/contact",
       },
     ],
   },
