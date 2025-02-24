@@ -6,12 +6,19 @@ export const Navbar = () => {
   const toggleBurger = () => {
     setVisible(!visible);
   };
+  const changeBodyColor = (e: React.MouseEvent) => {
+    e.preventDefault();
+    document.body.style.backgroundColor = "lightblue";
+  };
+
+
+
 
   return (
     <>
-      <NavLink to="/CVPortalUppgiftReact/" className="logo">
+      <div className="logo" onClick={changeBodyColor}>
         <span>Tim</span>
-      </NavLink>
+      </div>
       <nav className="navigationDesktop">
         <ul className="links">
           <NavLink to="/CVPortalUppgiftReact/">Home</NavLink>
